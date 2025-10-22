@@ -1,10 +1,18 @@
+// what is keys object 
+//name of the property 
+
+// How to get value from object through array? 
+
 const person = {
   name : 'hena',
   age : 10,
-  county : 'bd'
+  country : 'bd'
 }
 
+// console.log(person[name])
+
 // for (let key in person){
+//   // console.log(person[key]) 
 //   console.log(`key: ${key}  value:${person[key]}`)
 // }
 
@@ -16,6 +24,11 @@ const person = {
 
 // console.log(Object.entries(person));
 
+// for(let key of Object.entries(person)){
+//   console.log(key[0])
+// }
+
+
 
 // for (let [key,value] of Object.entries(person)){
 //   console.log(`key:${key}  value:${value}`)
@@ -26,9 +39,9 @@ const person = {
 
 // const friend = ['rayhan','arman'];
 
-// const [o,i]=friend;
+// const [,o]=friend;
 
-// console.log(o,i)
+// console.log(o)
 
 
 
